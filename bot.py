@@ -7,7 +7,7 @@ TOKEN="abc" # Your bot token
 CHANNEL_ID=123 # The channel id of the channel your bot will be running in (can be checked using dev mode on discord)
 MAX_GUESSES=8 # The maximum number of guesses
 
-with open('words.txt','r') as file: # You put your own words in the words.txt file
+with open('words.txt','r') as file: # You can put your own words in the words.txt file
     words=file.read().splitlines()
 
 isRecievingVotes=False
